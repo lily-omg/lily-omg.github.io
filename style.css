@@ -43,7 +43,9 @@ body{
     border: solid 0.2rem rgba(138, 43, 226, 0.6);
     width: 25rem;
     margin: 0.4rem;
-    background-color: rgba(138, 43, 226, 0.6);
+    background: rgb(177,0,14);
+    background: linear-gradient(0deg, rgba(177,0,14,1) 0%, rgba(190,0,171,1) 68%); 
+    /* background-color: rgba(138, 43, 226, 0.6); */
     border-radius: 2rem;
     text-shadow: 1px 0px 14px #DC00FF, 1px 0px 14px #DC00FF, 1px 0px 14px #DC00FF, 1px 0px 14px #DC00FF;
 }
