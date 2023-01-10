@@ -1,0 +1,9 @@
+@use 'reset-css';
+
+@use './components/_header';
+@use './var';
+@use 'global';
+@use './components/leftnav';
+@use './components/centernav';
+@use './components/rightnav';
+@use './components/centerthirdbox'

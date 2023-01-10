@@ -1,0 +1,68 @@
+@use '../var';
+
+.container{
+    &__centernavthirdbox{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+        padding-bottom: .5rem;
+        
+    }
+
+    &__articletitle{
+        display: flex;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+    }
+
+    &__articlefff{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: .3rem;
+    }
+
+    &__articlepage{
+        font-weight: bold;
+        margin-bottom: .2rem;
+    }
+
+    &__articleauthor{
+        font-size: .75em;
+        color: rgba(0, 0, 0, 0.432);
+        font-weight: bold;
+    }
+
+    &__articleimg{
+        width: 10%;
+        height: 100%;
+    }
+
+    &__articleplus{
+        width: 5%;
+        height: 50%;
+        align-self: center;
+        margin-left: .2rem;
+    }
+
+    &__caption{
+        text-align: center;
+        font-weight: bold;
+        margin: 0 1rem;
+        margin-bottom: .5rem;
+        border-top: 1px solid rgba(119, 0, 255, 0.479);
+        padding: 1rem;
+        text-transform: uppercase;
+        font-size: .8em;
+        color: rgba(127, 0, 201, 0.486);
+    }
+
+    &__articlephoto{
+        width: 100%;
+    }
+}

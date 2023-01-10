@@ -1,0 +1,36 @@
+@use '../var';
+
+.header{
+    position: sticky;
+    top: 0;
+    width: 99vw;
+    background-color: var.$bghead;
+
+    &__box{
+        display: flex;
+        align-items: center;
+        gap: 25%;
+    }
+
+    &__title{
+        padding: .5rem;
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+        margin-left: 1rem;
+        white-space: nowrap;
+    }
+
+    &__searchbar{
+        background-color: #EFF2F5;
+        border: none;
+        border-radius: 20px;
+        width: 400%;
+        padding: .5rem;
+    }
+
+    &__logo{
+        width: 30%;
+    }
+}
+

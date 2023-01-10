@@ -1,0 +1,28 @@
+{
+  "name": "lily-omg.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lily-omg/lily-omg.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lily-omg/lily-omg.github.io/issues"
+  },
+  "homepage": "https://github.com/lily-omg/lily-omg.github.io#readme",
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
+}
