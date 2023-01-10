@@ -4,8 +4,8 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel ./*.html",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://github.com/lily-omg/lily-omg.github.io",
+    "start": "parcel ./src/*.html",
+    "predeploy": "rm -rf dist && parcel build ./src/*.html --public-url https://github.com/lily-omg/lily-omg.github.io",
     "deploy": "gh-pages -d dist"
   },
 
